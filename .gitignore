@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Data is re-downloadable; keep it out of git
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
